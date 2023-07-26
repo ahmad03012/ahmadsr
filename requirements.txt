@@ -1,0 +1,4 @@
+dnspython
+pyrogram
+python-dotenv
+tgcrypto
