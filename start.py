@@ -1,5 +1,6 @@
 import pyrogram
 from pyrogram import filters
+import config
 
 app = pyrogram.Client(
     ":deblo:",
@@ -10,7 +11,7 @@ app = pyrogram.Client(
 
 @app.on_message(filters.command("start"))
 async def start_command(_, message: Message):
-    await message.reply("Hallo deblo")
+    await m.reply("Hallo deblo")
     
 
 app.run()
