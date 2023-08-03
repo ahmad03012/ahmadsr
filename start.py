@@ -10,7 +10,7 @@ app = pyrogram.Client(
 )
 
 @app.on_message(filters.command("start"))
-async def start_command(_, message: Message):
+async def start_command(_, message: m):
     await m.reply("Hallo deblo")
     
 
